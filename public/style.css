@@ -1,0 +1,11 @@
+h1 {
+    font-size: 32;
+}
+body {
+    background-color: rgb(137, 180, 221);
+    font-size: 50;
+    height: 100vh;
+}
+table {
+    background-color: white;
+}
