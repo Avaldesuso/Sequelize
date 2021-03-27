@@ -1,8 +1,7 @@
-async function dataHandler() {
+async function Dhauler() {
     const endpoint = await fetch('/api/dining');
     const data = await endpoint.json();
     const table = document.querySelector('tbody');
-  
     data.data.forEach((item) => {
       const location = document.createElement('tr');
       location.innerHTML = `
@@ -12,9 +11,7 @@ async function dataHandler() {
       table.append(location);
     });
   }
-  
 async function windowActions() {
-    await dataHandler();
+    await Dhauler();
 }
-
 window.onload = windowActions;
