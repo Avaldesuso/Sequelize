@@ -1,11 +1,30 @@
 h1 {
     font-size: 32;
+    color: black;
 }
 body {
     background-color: rgb(137, 180, 221);
     font-size: 50;
     height: 100vh;
+    align-items: center;
 }
 table {
     background-color: white;
+    align-items: center;
 }
+h2 {
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  .column {
+    align-items: center;
+  }
+  
+  thead,
+  tbody {
+    text-align: center;
+  }
+  .table {
+    text-align: center;
+  }  

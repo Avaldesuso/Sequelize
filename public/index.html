@@ -2,26 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Andrew Valdesus's W8</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/canvasjs.min.js">
 </head>
 <body>
     <h1>Andrew Valdesus's W8</h1>
+    <div id="chartContainer" style="height: 300px; width: 100%;"></div>
     <div class="column">
         <table class="table">
-            <thead class="thead">UMD Diners</thead>
-            <tbody class="tbody">
+            <thead>
+                <h2> Dinner Data</h2>
                 <tr>
                     <th>Diner ID</th>
                     <th>Diner Name</th>
                     <th>Diner Address</th>
                 </tr>
+            </thead>
+            <tbody class="target">
             </tbody>
         </table>
     </div>
-    <script src="script.js"></script>
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/canvasjs.min.js"></script>
+<script src="script.js"></script>
 </html>
